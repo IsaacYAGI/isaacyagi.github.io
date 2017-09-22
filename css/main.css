@@ -126,7 +126,7 @@ ul li {
 	letter-spacing:7px;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #848484;
 }
 #header.fixed a {
 	color: #000;
@@ -137,7 +137,7 @@ ul li {
 }
 #header.fixed .nav-toggle {
 	top: 18px;
-	color: #000;
+	color: #fff;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -154,14 +154,15 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: rgba(255, 255, 255, 0.75);
-	font-size: 13px;
+	background-color: light-grey;
+	color: #fff;
+	font-size: 15px;
 	font-weight: 700;
 	margin-left: 40px;
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #fff;
+	color: #00aeda;
 }
 .nav-toggle {
 	display: none;
@@ -304,7 +305,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/01.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -325,11 +326,14 @@ ul li {
 }
 .banner-text p {
 	color: rgba(255, 255, 255, 0.60);
-	font-size: 16px;
+	font-size: 40px;
 	font-weight: 400;
 	line-height: 24px;
 	margin-top: 30px;
 	margin-bottom: 80px;
+}
+.banner-text h2{
+	color: #fff;
 }
 /* ==========================================================================
 	$intro
@@ -339,15 +343,18 @@ ul li {
 }
 .intro h3 {
 	color: #fff;
+	font-weight: bold;
 	margin-top: 0;
 }
-.intro p {
+.intro p  {
 	font-family: "Merriweather", Arial, sans-serif;
-	color: rgba(255, 255, 255, 0.75);
-	font-weight: 400;
+	font-weight: normal;
+	font-size: 16px;
+	margin-top:15px;
+	color: #fff
 }
 /* ------------------------------------------------------------------------------
-	 Serives
+	 Services
 -------------------------------------------------------------------------------*/
 .service-section {
 	padding-top: 100px;
@@ -449,32 +456,34 @@ ul li {
 -------------------------------------------------------------------------------*/
 .person {
 	max-width: 270px;
-	text-align: center;
+	display: inline;
 }
 .person img {
-	width: 150px;
-	height: 150px;
 	border-radius: 50%;
 	margin: auto;
+	
 }
 .person-content {
 	margin-top: 20px;
+	background-color: none;
+	text-align: center;
 }
-.person h4 {
+/*.person h4 {
 	font-weight: 400;
+	float: right;
 }
 .person h5 {
 	color: #00aeda;
 	font-size: 13px;
 	font-weight: 400;
 	margin-bottom: 20px;
-}
+}*/
 .social-icons, .footer .footer-share {
 	margin-top: 30px;
 }
 .social-icons li, .footer .footer-share li {
 	display: inline-block;
-	float: none;
+	float:none;
 }
 .social-icons a, .footer .footer-share a {
 	border: 1px solid #e8ecee;
@@ -572,7 +581,7 @@ ul li {
 	border-bottom: #e0e0e0 1px solid;
 }
 .conForm .submitBnt {
-	background: #3bc492;
+	background: #00aeda;
 	color: #fff;
 	margin-top: 30px;
 padding:15px 30px 15px 30px;
@@ -624,30 +633,36 @@ padding:15px 30px 15px 30px;
 }
 .footer h5 {
 	color: #fff;
+	font-size: 1em;
 }
 .footer h5 {
 	margin-bottom: 20px;
+	text-align: right;
 }
 .footer p {
 	color: rgba(255, 255, 255, 0.25);
+	text-align: center;
 }
 .footer a {
 	color: rgba(255, 255, 255, 0.50);
 }
 .footer a:hover {
-	color: #e84545;
+	color: #00aeda;
 }
 .footer .footer-share {
 	margin-top: 0;
 }
 .footer .footer-share li {
 	display: inline-block;
-	float: none;
+	float: right;
 }
 .footer .footer-share a {
 	border: none;
 	font-size: 21px;
 	color: rgba(255, 255, 255, 0.25);
+}
+.footer .footer-share a:hover{
+	color: #00aeda
 }
 .footer .fa-heart {
 	color: #e84545;
