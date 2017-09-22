@@ -1,0 +1,81 @@
+#header.fixed {
+  background-color: #848484;
+}
+
+#header.fixed .nav-toggle {
+  color: #fff;
+}
+
+.navigation a {
+  background-color: light-grey;
+  color: #fff;
+  font-size: 15px;
+}
+
+.navigation a:hover, .navigation a.active {
+  color: #00aeda;
+}
+
+.banner {
+  background-image: url(../images/01.jpg);
+}
+
+.banner-text p {
+  font-size: 40px;
+}
+
+.banner-text h2{
+  color: #fff;
+}
+
+.intro h3 {
+  font-weight: bold;
+}
+
+.intro p  {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top:15px;
+  color: #fff
+}
+
+.person {
+  display: inline;
+}
+
+.person img {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.person-content {
+  background-color: none;
+  text-align: center;
+}
+
+.conForm .submitBnt {
+  background: #00aeda;
+}
+
+.footer h5 {
+  font-size: 1em;
+  text-align: right;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer a:hover {
+  color: #00aeda;
+}
+
+.footer .footer-share li {
+  float: right;
+}
+
+.footer .footer-share a:hover{
+  color: #00aeda;
+}
