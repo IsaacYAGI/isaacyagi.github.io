@@ -12,7 +12,7 @@
   font-size: 15px;
 }
 
-.navigation a:hover, .navigation a.active {
+.navigation a:hover, .navigation a.active, #header.fixed .navigation a:hover {
   color: #00aeda;
 }
 
