@@ -30,7 +30,11 @@ $(document).ready(function() {
 	        	bottom = top + $(this).outerHeight();
 	    	if (cur_pos >= top && cur_pos <= bottom) {
 	      		nav.find('a').removeClass('active');
-	      		nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+	      		if ($(this).attr('id') == "intro"){
+	      			nav.find('a[href="#banner"]').addClass('active');	
+	      		}else{
+	      			nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');	      			
+	      		}
 	    	}
 	  	});
 	});
