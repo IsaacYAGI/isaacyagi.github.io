@@ -60,22 +60,22 @@
 }
 
 .footer h5 {
-  font-size: 1em;
-  text-align: right;
+  font-size: 2em;
 }
 
-.footer p {
-  text-align: center;
+.footer .footer-col {
+  margin-bottom: 10px;
 }
 
 .footer a:hover {
   color: #00aeda;
 }
 
-.footer .footer-share li {
-  float: right;
-}
-
 .footer .footer-share a:hover{
   color: #00aeda;
+}
+
+.footer .footer-share a {
+  font-size: 2em;
+  color: #fff;
 }
