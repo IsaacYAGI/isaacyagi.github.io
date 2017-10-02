@@ -19,16 +19,19 @@
 <link rel="stylesheet" href="css/font-icon.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/estilos_responsive.css">
+
 </head>
 
 <body>
 <!-- header section -->
-<section class="banner" role="banner">
+<section class="banner" role="banner" id="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html">YAGI</a>
+    <div class="header-content clearfix"> <a class="logo" href="#banner">YAGI</a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="#intro">Inicio</a></li>
+          <li><a href="#banner">Inicio</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#works">Proyectos</a></li>
           <li><a href="#teams">Sobre mí</a></li>
@@ -36,7 +39,8 @@
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+      <a href="#" class="nav-toggle">Menu<span></span></a> 
+    </div>
   </header>
   <!-- banner text -->
   <div class="container">
@@ -44,7 +48,8 @@
       <div class="banner-text text-center">
         <h1>Isaac Yriarte </h1>
         <p><h2>Programador Web/ App Developer</h2></p>
-        <!--<a href="#" class="btn btn-large">Find out more</a>--> </div>
+        <!--<a href="#" class="btn btn-large">Find out more</a>--> 
+      </div>
       <!-- banner text --> 
     </div>
   </div>
@@ -54,7 +59,7 @@
 <section id="intro" class="section intro">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>Puedo ayudarte con tu Proyecto ! </h3>
+      <h3>¡Puedo ayudarte con tu Proyecto! </h3>
       <p>Soy una persona honesta, proactiva, responsable, comprometida y con disposición para la búsqueda continua de información a fin de ofrecer un servicio eficiente y soluciones de calidad a mis clientes.<br> Tengo disponibilidad para trabajar de manera presencial o remota. </p>
     </div>
   </div>
@@ -78,7 +83,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tablet"></span>
         <div class="services-content">
-          <h5>Diseño  y desarrollo de aplicaciones moviles. </h5>
+          <h5>Diseño  y desarrollo de aplicaciones móviles. </h5>
           <p>Diseño  y desarrollo de aplicaciones móviles para Android de forma nativa y multiplataforma empleando Kony Studio.</p>
         </div>
       </div>
@@ -90,7 +95,7 @@
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-gears"></span>
         <div class="services-content">
-          <h5>Mantenimiento y Actualización de Paginas Web</h5>
+          <h5>Mantenimiento y Actualización de Páginas Web</h5>
           <p>Actualización de contenido, cambio de diseño y mantenimiento de páginas web ya existentes.</p>
         </div>
       </div>
@@ -108,51 +113,70 @@
 <section id="works" class="works section no-padding">
   <div class="container-fluid">
     <div class="row no-gutter">
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/imagen1.jpg" class="work-box"> <img src="images/imagen1.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Pizzeria-Spicchi Di Sole</h5>
-            <p>Diseño de Página Web</p>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> 
+        <a href="images/Imagen1.jpg" class="work-box">
+        <!--<a href="https://google.com" target="_blank" class="work-box">-->
+          <img src="images/Imagen1.jpg" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>Pizzeria-Spicchi Di Sole</h5>
+              <p>Diseño de Página Web</p>
+              <!--<br>
+              <button class="btn btn-link" onclick="window.open('https://google.com','_blank');">Abrir web</button>-->
+            </div>
           </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/imagen2.jpg" class="work-box"> <img src="images/imagen2.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Photographer Freelance</h5>
-            <p>Portafolio Fotográfico</p>
+          <!-- overlay --> 
+        </a> 
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> 
+        <a href="images/Imagen2.jpg" class="work-box"> 
+          <img src="images/Imagen2.jpg" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>Photographer Freelance</h5>
+              <p>Portafolio Fotográfico</p>
+            </div>
           </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/imagen3.jpg" class="work-box"> <img src="images/imagen3.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>SantAngelo Frutta e Verdura</h5>
-            <p>Diseño de Página Web</p>
+          <!-- overlay --> 
+        </a> 
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> 
+        <a href="images/Imagen3.jpg" class="work-box"> 
+          <img src="images/Imagen3.jpg" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>SantAngelo Frutta e Verdura</h5>
+              <p>Diseño de Página Web</p>
+            </div>
           </div>
-        </div>
-        <!-- overlay --> 
-        </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/imagen4.jpg" class="work-box"> <img src="images/imagen4.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Freelance Translator</h5>
-            <p>Portafolio Personal</p>
+          <!-- overlay --> 
+        </a> 
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> 
+        <a href="images/Imagen4.jpg" class="work-box"> 
+          <img src="images/Imagen4.jpg" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>Freelance Translator</h5>
+              <p>Portafolio Personal</p>
+            </div>
           </div>
-        </div>
-        <!-- overlay --> 
-       <!-- </a> </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
-        <div class="overlay">
-          <div class="overlay-caption">
-            <h5>Project Name</h5>
-            <p>Website Design</p>
-          </div>
-        </div>-->
-        <!-- overlay --> 
-        </a> </div>
+          <!-- overlay --> 
+       </a> 
+     </div>
+     <!--
+     <div class="col-lg-3 col-md-6 col-sm-6 work"> 
+        <a href="images/work-5.jpg" class="work-box"> 
+          <img src="images/work-5.jpg" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>Project Name</h5>
+              <p>Website Design</p>
+            </div>
+          </div>-->
+          <!-- overlay --> 
+       <!-- </a> 
+     </div>-->
       <!--<div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
@@ -161,7 +185,8 @@
           </div>
         </div>-->
         <!-- overlay --> 
-        </a> </div>
+        <!--</a>-->
+      <!--</div>-->
       <!--<div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
@@ -179,7 +204,8 @@
           </div>
         </div>-->
         <!-- overlay --> 
-        </a> </div>
+        <!--</a> 
+      </div>-->
     </div>
   </div>
 </section>
@@ -189,11 +215,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-6">
-        <div class="person"><img src="images/isa3.1.jpg" alt="" class="img-responsive">
+        <div class="person">
+          <img src="images/Isa3.1.jpg" alt="" class="img-responsive">
           <div class="person-content">
             <h4>Isaac Yriarte</h4>
             <h5 class="role">Ingeniero en Informática</h5>
-            <p>Actualmente formo parte de una pequeña empresa donde me desempeño  desarrollando aplicaciones web y móviles.<br/>  También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Pascal, Phyton. </p>
+            <p>Actualmente formo parte de una empresa donde me desempeño desarrollando aplicaciones web y móviles.<br/>  También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Python. </p>
           </div>
           <!--<ul class="social-icons clearfix">
             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -250,8 +277,8 @@
             <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
             <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
           </ul>-->
-        </div>
-      </div>
+        <!--</div>-->
+      <!--</div>-->
     </div>
   </div>
 </section>
@@ -310,9 +337,9 @@
         <p>Estoy a la orden para responder tus dudas y orientarte de manera gratuita sobre el proyecto que deseas realizar.</p>
         <div id="message"></div>
         <form method="post" action="php/contact.php" name="cform" id="cform">
-          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre..." >
-          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email ..." >
-          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu mensaje..."></textarea>
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email" >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu mensaje"></textarea>
           <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar">
           <div id="simple-msg"></div>
         </form>
@@ -331,30 +358,31 @@
           <h5>Mi Ubicación</h5>
           <p>Caracas. Venezuela<br>
            email: isaacyriarte@gmail.com<br>
-            support@lexis.com</p>
+            support@lexis.com</p>-->
           <!--<p>Copyright © 2015 Lexis Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>-->
-        </div>
-        <div class="footer-col col-md-3">
-          <h5>Servicios Ofrecidos</h5>
+        <!--</div>-->
+        <div class="footer-col col-md-12 text-center">
+          <!--<h5>Servicios Ofrecidos</h5>
           <p>
-          <ul>
-            <li><a href="#">Consultoría y Análisis</a></li>
-            <li><a href="#">Desarrollo Web</a></li>
-            <li><a href="#">Desarrollo Movil</a></li>
-            <li><a href="#">Control de Versiones</a></li>
-            <li><a href="#">Mantenimiento y Actualización de Páginas Web</a></li>
-          </ul>
+            <ul>
+              <li><a href="#">Consultoría y Análisis</a></li>
+              <li><a href="#">Desarrollo Web</a></li>
+              <li><a href="#">Desarrollo Movil</a></li>
+              <li><a href="#">Control de Versiones</a></li>
+              <li><a href="#">Mantenimiento y Actualización de Páginas Web</a></li>
+            </ul>
           </p>
-        </div>
-        <div class="footer-col col-md-3">
+        </div>-->
+        <div class="footer-col col-md-12 text-center">
           <h5>Contacto</h5>
           <ul class="footer-share">
             <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-            <li><a target="_blank" href="https://www.skype.com/es/" title= "Skype ID: Yagi"><span class="fa fa-skype"></span></a></li>
-            <li><a target="_blank" href="#" title= "Tlf:123456"><span class="fa fa-phone"></span></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/isaacyagi/" title= "LinkedIn"><span class="fa fa-linkedin"></span></a></li>
-            <li><a target="_blank" href="mailto:isaacyriarte@gmail.com" title="isaacyagi@gmail.com"></><span class="fa fa-envelope-o"></span></a></li>
+            <li><a href="skype:isaacyagi?add" title="Skype ID: isaacyagi"><span class="fa fa-skype"></span></a></li>
+            <li><a href="#" title="Tlf:123456"><span class="fa fa-phone"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/isaacyagi/" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="https://github.com/IsaacYAGI/" target="_blank" title="Github"><span class="fa fa-github"></span></a></li>
+            <li><a href="mailto:isaacyagi@gmail.com" title="isaacyagi@gmail.com"><span class="fa fa-envelope-o"></span></a></li>
             <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
           </ul>
         </div>
