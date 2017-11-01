@@ -46,7 +46,7 @@
           <li><a href="#teams">Sobre mí</a></li>
           <li><a href="#testimonials">Opiniones</a></li>
           <li><a href="#contact">Contacto</a></li>
-          <li><a><img src="images/venezuela.svg" alt=""></a></li>
+          <li><a><img data-toggle="modal" data-target="#modalIdioma" id="imgIdioma" src="images/venezuela.svg" alt=""></a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> 
@@ -63,6 +63,31 @@
       <!-- banner text --> 
     </div>
   </div>
+
+
+  <!--Trigger of modal -->
+  <!--<button type="button" data-toggle="modal" data-target="#modalIdioma" class="btn btn-primary">Prueba cambio de idioma</button>-->
+
+  <!-- MODAL IDIOMA-->
+
+  <div id="modalIdioma" role="dialog" aria-labelledby="modalIdiomaLabel" class="modal fade">
+    <div role="document" class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">&times;</span></button>
+          <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          Body del modal
+        </div>
+        <div class="modal-footer">
+          <!--<button type="button" data-dismiss="modal" class="btn btn-default">Cerrar</button>-->
+          <button type="button" data-dismiss="modal" class="btn btn-default">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </section>
 <!-- header section --> 
 <!-- intro section -->
