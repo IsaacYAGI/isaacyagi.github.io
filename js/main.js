@@ -71,5 +71,49 @@ $(document).ready(function() {
 			language = "es";
 		}
 		$("#imgIdioma").attr('src',('images/' + language + '.svg'));
+		cambiarIdioma(language);
 	});
+
+	// use plugins and options as needed, for options, detail see
+  // http://i18next.com/docs/
+	i18next.init({
+    lng: 'es', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+    resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+      es: {
+        translation: {
+          nav: {
+            home: 'Inicio',
+            page1: 'Page One',
+            page2: 'Page Two'
+          }
+        }
+      },
+      en: {
+        translation: {
+          nav: {
+            home: 'Home',
+            page1: 'Page One',
+            page2: 'Page Two'
+          }
+        }
+      }
+    }
+  }, function(err, t) {
+    // for options see
+    // https://github.com/i18next/jquery-i18next#initialize-the-plugin
+    jqueryI18next.init(i18next, $);
+    // start localizing, details:
+    // https://github.com/i18next/jquery-i18next#usage-of-selector-function
+  });
+
+
+
+  i18next.on('languageChanged', () => {
+    $('body').localize();
+  });
+
+  function cambiarIdioma(lang){
+    i18next.changeLanguage(lang);
+  }
+
 });
