@@ -67,6 +67,9 @@ $(document).ready(function() {
 	});
 
 	$("#btnGuardarIdioma").on('click',function(){
+		if (language == ""){
+			language = "es";
+		}
 		$("#imgIdioma").attr('src',('images/' + language + '.svg'));
 	});
 });
