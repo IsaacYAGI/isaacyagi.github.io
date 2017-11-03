@@ -65,4 +65,8 @@ $(document).ready(function() {
 		language = $('select[id=slcIdioma]').val();
 		console.log(language);
 	});
+
+	$("#btnGuardarIdioma").on('click',function(){
+		$("#imgIdioma").attr('src',('images/' + language + '.svg'));
+	});
 });
