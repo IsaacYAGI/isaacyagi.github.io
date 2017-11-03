@@ -80,22 +80,10 @@ $(document).ready(function() {
     lng: 'es', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
     resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
       es: {
-        translation: {
-          nav: {
-            home: 'Inicio',
-            page1: 'Page One',
-            page2: 'Page Two'
-          }
-        }
+        translation: i18nEs
       },
       en: {
-        translation: {
-          nav: {
-            home: 'Home',
-            page1: 'Page One',
-            page2: 'Page Two'
-          }
-        }
+        translation: i18nEn
       }
     }
   }, function(err, t) {
@@ -105,7 +93,6 @@ $(document).ready(function() {
     // start localizing, details:
     // https://github.com/i18next/jquery-i18next#usage-of-selector-function
   });
-
 
 
   i18next.on('languageChanged', () => {
