@@ -8,7 +8,8 @@ const i18nEs = {
     "contact": "Contacto"
   },
   "banner": {
-    "banner_subtitle": "Programador Web/ App Developer"
+    "title": "Isaac Yriarte",
+    "subtitle": "Programador Web/ App Developer"
   },
   "intro": {
     "title": "¡Puedo ayudarte con tu Proyecto!",
