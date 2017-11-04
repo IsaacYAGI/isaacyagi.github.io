@@ -90,6 +90,7 @@ $(document).ready(function() {
     // for options see
     // https://github.com/i18next/jquery-i18next#initialize-the-plugin
     jqueryI18next.init(i18next, $);
+    $('body').localize();
     // start localizing, details:
     // https://github.com/i18next/jquery-i18next#usage-of-selector-function
   });
