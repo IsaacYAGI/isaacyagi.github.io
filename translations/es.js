@@ -58,9 +58,11 @@ const i18nEs = {
     "title": "Comunícate conmigo",
     "subtitle": "Estoy a la orden para responder tus dudas y orientarte de manera gratuita sobre el proyecto que deseas realizar.",
     "form": {
-      "name_placeholder": "Nombre",
-      "email_placeholder": "Correo",
-      "message_placeholder": "Mensaje",
+      "placeholder": {
+        "name": "Nombre",
+        "email": "Correo",
+        "message": "Mensaje"
+      },
       "button_send": "Enviar"
     }
   },
