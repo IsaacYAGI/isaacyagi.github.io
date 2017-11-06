@@ -40,12 +40,13 @@
     <div class="header-content clearfix"> <a class="logo" href="#banner">YAGI</a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="#banner">Inicio</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#works">Proyectos</a></li>
-          <li><a href="#teams">Sobre mí</a></li>
-          <li><a href="#testimonials">Opiniones</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#banner" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
+          <li><a href="#works" data-i18n="nav.works">Proyectos</a></li>
+          <li><a href="#teams" data-i18n="nav.team">Sobre mí</a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials">Opiniones</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+          <li><a><img data-toggle="modal" data-target="#modalIdioma" id="imgIdioma" src="images/es.svg" alt=""></a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> 
@@ -55,21 +56,22 @@
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <h1>Isaac Yriarte </h1>
-        <p><h2>Programador Web/ App Developer</h2></p>
+        <h1 data-i18n="banner.title">Isaac Yriarte </h1>
+        <p><h2 data-i18n="banner.subtitle">Programador Web/ App Developer</h2></p>
         <!--<a href="#" class="btn btn-large">Find out more</a>--> 
       </div>
       <!-- banner text --> 
     </div>
   </div>
+
 </section>
 <!-- header section --> 
 <!-- intro section -->
 <section id="intro" class="section intro">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>¡Puedo ayudarte con tu Proyecto! </h3>
-      <p>Soy una persona honesta, proactiva, responsable, comprometida y con disposición para la búsqueda continua de información a fin de ofrecer un servicio eficiente y soluciones de calidad a mis clientes.<br> Tengo disponibilidad para trabajar de manera presencial o remota. </p>
+      <h3 data-i18n="intro.title">¡Puedo ayudarte con tu Proyecto!</h3>
+      <p data-i18n="intro.description">Soy una persona honesta, proactiva, responsable, comprometida y con disposición para la búsqueda continua de información a fin de ofrecer un servicio eficiente y soluciones de calidad a mis clientes.<br> Tengo disponibilidad para trabajar de manera presencial o remota. </p>
     </div>
   </div>
 </section>
@@ -80,38 +82,38 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-strategy"></span>
         <div class="services-content">
-          <h5>Consultoría & Análisis</h5>
-          <p>Análisis de los requerimientos  y necesidades del cliente en la creación de su proyecto.</p>
+          <h5 data-i18n="services.consultAndAnalysis_titleconsultAndAnalysis_description">Consultoría & Análisis</h5>
+          <p data-i18n="services.consultAndAnalysis_description">Análisis de los requerimientos  y necesidades del cliente en la creación de su proyecto.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-laptop"></span>
         <div class="services-content">
-          <h5>Diseño y Desarrollo Web</h5>
-          <p> Diseño y Desarrollo Web, utilizando lenguajes de programación y herramientas computacionales adecuadas.</p>
+          <h5 data-i18n="services.designWeb_title">Diseño y Desarrollo Web</h5>
+          <p data-i18n="services.designWeb_description"> Diseño y Desarrollo Web, utilizando lenguajes de programación y herramientas computacionales adecuadas.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tablet"></span>
         <div class="services-content">
-          <h5>Diseño  y desarrollo de aplicaciones móviles. </h5>
-          <p>Diseño  y desarrollo de aplicaciones móviles para Android de forma nativa y multiplataforma empleando Kony Studio.</p>
+          <h5 data-i18n="services.designMobile_title">Diseño y desarrollo de aplicaciones móviles. </h5>
+          <p data-i18n="services.designMobile_description">Diseño y desarrollo de aplicaciones móviles para Android de forma nativa y multiplataforma empleando Kony Studio.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-search"></span>
         <div class="services-content">
-          <h5>Control y Seguimiento </h5>
-          <p>Controles continuos del proceso y del producto, a fin de asegurar la satisfacción del cliente y el cumplimiento de los estándares de calidad.</p>
+          <h5 data-i18n="services.control_title">Control y Seguimiento </h5>
+          <p data-i18n="services.control_description">Controles continuos del proceso y del producto, a fin de asegurar la satisfacción del cliente y el cumplimiento de los estándares de calidad.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-gears"></span>
         <div class="services-content">
-          <h5>Mantenimiento y Actualización de Páginas Web</h5>
-          <p>Actualización de contenido, cambio de diseño y mantenimiento de páginas web ya existentes.</p>
+          <h5 data-i18n="services.maintenance_title">Mantenimiento y Actualización de Páginas Web</h5>
+          <p data-i18n="services.maintenance_description">Actualización de contenido, cambio de diseño y mantenimiento de páginas web ya existentes.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-edit"></span>
         <div class="services-content">
-          <h5>Control de versiones</h5>
-          <p>Utilizando Sistemas de Control de Versiones como Git o SVN.</p>
+          <h5 data-i18n="services.cvs_title">Control de versiones</h5>
+          <p data-i18n="services.cvs_description">Utilizando Sistemas de Control de Versiones como Git o SVN.</p>
         </div>
       </div>
     </div>
@@ -128,8 +130,8 @@
           <img src="images/Imagen1.jpg" alt="">
           <div class="overlay">
             <div class="overlay-caption">
-              <h5>Pizzeria-Spicchi Di Sole</h5>
-              <p>Diseño de Página Web</p>
+              <h5 data-i18n="works.work1_title">Pizzeria-Spicchi Di Sole</h5>
+              <p data-i18n="works.work1_description">Diseño de Página Web</p>
               <!--<br>
               <button class="btn btn-link" onclick="window.open('https://google.com','_blank');">Abrir web</button>-->
             </div>
@@ -142,8 +144,8 @@
           <img src="images/Imagen2.jpg" alt="">
           <div class="overlay">
             <div class="overlay-caption">
-              <h5>Photographer Freelance</h5>
-              <p>Portafolio Fotográfico</p>
+              <h5 data-i18n="works.work2_title">Photographer Freelance</h5>
+              <p data-i18n="works.work2_description">Portafolio Fotográfico</p>
             </div>
           </div>
           <!-- overlay --> 
@@ -154,8 +156,8 @@
           <img src="images/Imagen3.jpg" alt="">
           <div class="overlay">
             <div class="overlay-caption">
-              <h5>SantAngelo Frutta e Verdura</h5>
-              <p>Diseño de Página Web</p>
+              <h5 data-i18n="works.work3_title">SantAngelo Frutta e Verdura</h5>
+              <p data-i18n="works.work3_description">Diseño de Página Web</p>
             </div>
           </div>
           <!-- overlay --> 
@@ -166,8 +168,8 @@
           <img src="images/Imagen4.jpg" alt="">
           <div class="overlay">
             <div class="overlay-caption">
-              <h5>Freelance Translator</h5>
-              <p>Portafolio Personal</p>
+              <h5 data-i18n="works.work4_title">Freelance Translator</h5>
+              <p data-i18n="works.work4_description">Portafolio Personal</p>
             </div>
           </div>
           <!-- overlay --> 
@@ -227,9 +229,9 @@
         <div class="person">
           <img src="images/Isa3.1.jpg" alt="" class="img-responsive">
           <div class="person-content">
-            <h4>Isaac Yriarte</h4>
-            <h5 class="role">Ingeniero en Informática</h5>
-            <p>Actualmente formo parte de una empresa donde me desempeño desarrollando aplicaciones web y móviles.<br/>  También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Python. </p>
+            <h4 data-i18n="teams.title">Isaac Yriarte</h4>
+            <h5 class="role" data-i18n="teams.subtitle">Ingeniero en Informática</h5>
+            <p data-i18n="teams.description">Actualmente formo parte de una empresa donde me desempeño desarrollando aplicaciones web y móviles.<br/>  También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Python. </p>
           </div>
           <!--<ul class="social-icons clearfix">
             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -301,32 +303,32 @@
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Isaac es un desarrollador web talentoso y hábil, altamente comprometido con su trabajo, excelente profesional y con mucha calidad humana." </h1>
-                <p>Aracelis Martín, Freelance RA Consultant</p>
+                <h1 data-i18n="testimonials.testimonial1">"Isaac es un desarrollador web talentoso y hábil, altamente comprometido con su trabajo, excelente profesional y con mucha calidad humana." </h1>
+                <p data-i18n="testimonials.author1">Aracelis Martín, Freelance RA Consultant</p>
               </blockquote>
             </div>
           </li>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Isaac is a highly responsible person, with a high academic and professional level, strongly recommended." </h1>
-                <p>Giorgio Iule, Freelance Photographer.</p>
+                <h1 data-i18n="testimonials.testimonial2">"Isaac is a highly responsible person, with a high academic and professional level, strongly recommended." </h1>
+                <p data-i18n="testimonials.author2">Giorgio Iule, Freelance Photographer.</p>
               </blockquote>
             </div>
           </li>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Isaac è un professionista preoccupato per il suo costante aggiornamento, orientato al raggiungimento degli obiettivi, dedicato, impegnato e appassionato del suo lavoro, altamente responsabile. Consegna i progetti nel tempo concordato." </h1>
-                <p>Maurizio Buonpensiero, Commissionaria SantAngelo</p>
+                <h1 data-i18n="testimonials.testimonial3">"Isaac è un professionista preoccupato per il suo costante aggiornamento, orientato al raggiungimento degli obiettivi, dedicato, impegnato e appassionato del suo lavoro, altamente responsabile. Consegna i progetti nel tempo concordato." </h1>
+                <p data-i18n="testimonials.author3">Maurizio Buonpensiero, Commissionaria SantAngelo</p>
               </blockquote>
             </div>
           </li>
           <li>
             <div class="col-md-12">
               <blockquote>
-                <h1>"Recomiendo a Isaac para el trabajo individual, pero también para proyectos compartidos; por su disposición a colaborar con los miembros del equipo y su proactividad para contribuir con el logro de los objetivos." </h1>
-                <p>Alejandra Yriarte, Corporación A&A</p>
+                <h1 data-i18n="testimonials.testimonial4">"Recomiendo a Isaac para el trabajo individual, pero también para proyectos compartidos; por su disposición a colaborar con los miembros del equipo y su proactividad para contribuir con el logro de los objetivos." </h1>
+                <p data-i18n="testimonials.author4">Alejandra Yriarte, Corporación A&A</p>
               </blockquote>
             </div>
           </li>
@@ -342,14 +344,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 conForm">
-        <h5>Comunícate conmigo</h5>
-        <p>Estoy a la orden para responder tus dudas y orientarte de manera gratuita sobre el proyecto que deseas realizar.</p>
+        <h5 data-i18n="contact.title">Comunícate conmigo</h5>
+        <p data-i18n="contact.subtitle">Estoy a la orden para responder tus dudas y orientarte de manera gratuita sobre el proyecto que deseas realizar.</p>
         <div id="message"></div>
         <form method="post" action="php/contact.php" name="cform" id="cform">
-          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre" >
-          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email" >
-          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu mensaje"></textarea>
-          <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre" data-i18n="[placeholder]contact.form.placeholder.name" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email" data-i18n="[placeholder]contact.form.placeholder.email" >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu mensaje" data-i18n="[placeholder]contact.form.placeholder.message"></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar" data-i18n="[value]contact.form.button_send">
           <div id="simple-msg"></div>
         </form>
       </div>
@@ -383,7 +385,7 @@
           </p>
         </div>-->
         <div class="footer-col col-md-12 text-center">
-          <h5>Contacto</h5>
+          <h5 data-i18n="footer.title">Contacto</h5>
           <ul class="footer-share">
             <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
@@ -395,13 +397,38 @@
             <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
           </ul>
         </div>
+  <div>Iconos diseñados por <a href="http://www.freepik.com" title="Freepik">Freepik</a> desde <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.com</a> con licencia <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
       </div>
     </div>
   </div>
   <!-- footer top --> 
-  
 </footer>
 <!-- Footer section --> 
+ <!--Trigger of modal -->
+  <!--<button type="button" data-toggle="modal" data-target="#modalIdioma" class="btn btn-primary">Prueba cambio de idioma</button>-->
+
+  <!-- MODAL IDIOMA-->
+
+<div id="modalIdioma" role="dialog" aria-labelledby="modalIdiomaLabel" class="modal fade">
+  <div role="document" class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">&times;</span></button>
+        <h4 data-i18n="modal.title" id="myModalLabel" class="modal-title"><!--<i class="fa fa-language"></i>--> Idioma</h4>
+      </div>
+      <div class="modal-body">
+        <select id="slcIdioma" class="form-control">
+          <option value="es">Español</option>
+          <option value="en">Inglés</option>
+        </select>
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" data-dismiss="modal" class="btn btn-default">Cerrar</button>-->
+        <button type="button" id="btnGuardarIdioma" data-dismiss="modal" class="btn btn-default" data-i18n="modal.button_save">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
@@ -411,5 +438,10 @@
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script> 
 <script type="text/javascript" src="js/jquery.contact.js"></script>
+<script type="text/javascript" src="translations/es.js"></script>
+<script type="text/javascript" src="translations/en.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/8.1.0/i18next.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.0/jquery-i18next.min.js" ></script>
+
 </body>
 </html>

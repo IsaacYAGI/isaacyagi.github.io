@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+	var language = "";
+
 	// Header Scroll
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
@@ -57,4 +60,48 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+
+	$("#slcIdioma").on('change',function(){
+		language = $('select[id=slcIdioma]').val();
+		console.log(language);
+	});
+
+	$("#btnGuardarIdioma").on('click',function(){
+		if (language == ""){
+			language = "es";
+		}
+		$("#imgIdioma").attr('src',('images/' + language + '.svg'));
+		cambiarIdioma(language);
+	});
+
+	// use plugins and options as needed, for options, detail see
+  // http://i18next.com/docs/
+	i18next.init({
+    lng: 'es', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+    resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+      es: {
+        translation: i18nEs
+      },
+      en: {
+        translation: i18nEn
+      }
+    }
+  }, function(err, t) {
+    // for options see
+    // https://github.com/i18next/jquery-i18next#initialize-the-plugin
+    jqueryI18next.init(i18next, $);
+    $('body').localize();
+    // start localizing, details:
+    // https://github.com/i18next/jquery-i18next#usage-of-selector-function
+  });
+
+
+  i18next.on('languageChanged', () => {
+    $('body').localize();
+  });
+
+  function cambiarIdioma(lang){
+    i18next.changeLanguage(lang);
+  }
+
 });
