@@ -13,7 +13,7 @@ const i18nEs = {
   },
   "intro": {
     "title": "¡Puedo ayudarte con tu Proyecto!",
-    "description": "Soy una persona honesta, proactiva, responsable, comprometida y con disposición para la búsqueda continua de información a fin de ofrecer un servicio eficiente y soluciones de calidad a mis clientes.<br> Tengo disponibilidad para trabajar de manera presencial o remota."
+    "description": "Soy una persona honesta, proactiva, responsable, comprometida y con disposición para la búsqueda continua de información a fin de ofrecer un servicio eficiente y soluciones de calidad a mis clientes.<br/> Tengo disponibilidad para trabajar de manera presencial o remota."
   },
   "services": {
     "consultAndAnalysis_title": "Consultoría & Análisis",
@@ -42,20 +42,20 @@ const i18nEs = {
   "teams": {
     "title": "Isaac Yriarte",
     "subtitle": "Ingeniero en Informática",
-    "description": "Actualmente formo parte de una empresa donde me desempeño desarrollando aplicaciones web y móviles.<br/>  También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Python."
+    "description": "Actualmente formo parte de una empresa donde me desempeño desarrollando aplicaciones web y móviles.<br/> También desarrollo proyectos individuales como profesional freelance.<br/>Los lenguajes de programación que más utilizo actualmente son: Java, C#, PHP, PHP OO, JavaScript, Python."
   },
   "testimonials": {
     "testimonial1": "\"Isaac es un desarrollador web talentoso y hábil, altamente comprometido con su trabajo, excelente profesional y con mucha calidad humana.\"",
     "author1": "Aracelis Martín, Freelance RA Consultant",
-    "testimonial2": "\"Isaac is a highly responsible person, with a high academic and professional level, strongly recommended.\"",
+    "testimonial2": "\"Isaac es una persona altamente responsable, con un alto nivel académico y profesional, muy recomendable.\"",
     "author2": "Giorgio Iule, Freelance Photographer.",
-    "testimonial3": "\"Isaac è un professionista preoccupato per il suo costante aggiornamento, orientato al raggiungimento degli obiettivi, dedicato, impegnato e appassionato del suo lavoro, altamente responsabile. Consegna i progetti nel tempo concordato.\"",
+    "testimonial3": "\"Isaac es un profesional preocupado por su constante actualización profesional, dedicado, comprometido, apasionado de su trabajo y muy responsable. Entrega los proyectos en el tiempo acordado.\"",
     "author3": "Maurizio Buonpensiero, Commissionaria SantAngelo",
     "testimonial4": "\"Recomiendo a Isaac para el trabajo individual, pero también para proyectos compartidos; por su disposición a colaborar con los miembros del equipo y su proactividad para contribuir con el logro de los objetivos.\"",
     "author4": "Alejandra Yriarte, Corporación A&A"
   },
   "contact": {
-    "title": "Comunícate conmigo",
+    "title": "Comunícate Conmigo",
     "subtitle": "Estoy a la orden para responder tus dudas y orientarte de manera gratuita sobre el proyecto que deseas realizar.",
     "form": {
       "placeholder": {
