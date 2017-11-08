@@ -9,26 +9,25 @@ const i18nEn = {
   },
   "banner": {
     "title": "Isaac Yriarte",
-    "subtitle": "Web Programmer/ App Developer"
+    "subtitle": "Web Developer/App Developer"
   },
   "intro": {
     "title": "I can help you with your Project!",
-    "description": "I am an honest, proactive, responsible person, always  committed with the continuous search of information in order to offer an efficient service and quality solutions to my clients.
-.<br> I am availabe to work in house or remotely."
+    "description": "I am an honest, proactive, responsible person, always  committed with the continuous search of information in order to offer an efficient service and quality solutions to my clients.<br/> I am availabe to work in house or remotely."
   },
   "services": {
-    "consultAndAnalysis_title": "CONSULTANCY & ANALYSIS",
+    "consultAndAnalysis_title": "Consultat & Analysis",
     "consultAndAnalysis_description": "Analysis of the requirements and needs of the client in the creation of the project.",
-    "designWeb_title": "WEB DESIGN AND WEB  DEVELOPMENT",
+    "designWeb_title": "Web Design and Web  Development",
     "designWeb_description": "Web Design and Development, using programming languages and appropriate computational tools.",
-    "designMobile_title": "DESIGN AND DEVELOPMENT OF MOBILE APPLICATIONS.",
+    "designMobile_title": "Design and Development of Mobile Applications.",
     "designMobile_description": "Design and development of mobile applications for Android natively and multiplatform using Kony Studio.",
-    "control_title": "CONTROL AND FOLLOW UP",
+    "control_title": "Control and Follow-up",
     "control_description": "Continuous process and product controls, in order to ensure customer satisfaction and compliance with quality standards.",
-    "maintenance_title": "MAINTAINING AND UPDATING OF WEB PAGES",
+    "maintenance_title": "Maintenance and Update of Web Pages",
     "maintenance_description": "Content update, design change, and maintenance of existing web pages.",
-    "cvs_title": "VERSION CONTROL",
-    "cvs_description": "Using Systems for  Version control  like Git or SVN."
+    "cvs_title": "Version Control",
+    "cvs_description": "Using Systems for version control like Git or SVN."
   },
   "works": {
     "work1_title": "Pizzeria-Spicchi Di Sole",
@@ -43,28 +42,28 @@ const i18nEn = {
   "teams": {
     "title": "Isaac Yriarte",
     "subtitle": "Computing Engineer",
-    "description": "Currently I am part of a company developing web and mobile applications.<br/> I also develop individual projects as a freelance professional.<br/>The programming languages I  commonly use are: Java, C #, PHP, PHP OO, JavaScript, Python."
+    "description": "Currently, I am part of a company developing web and mobile applications.<br/> I also develop individual projects as a freelance professional.<br/>The programming languages I  commonly use are: Java, C#, PHP, PHP OO, JavaScript, Python."
   },
   "testimonials": {
-    "testimonial1": "\"Isaac es un desarrollador web talentoso y hábil, altamente comprometido con su trabajo, excelente profesional y con mucha calidad humana.\"",
+    "testimonial1": "\"Isaac is a talented and skillful web developer, highly committed to his work, excellent professional and with great human quality.\"",
     "author1": "Aracelis Martín, Freelance RA Consultant",
     "testimonial2": "\"Isaac is a highly responsible person, with a high academic and professional level, strongly recommended.\"",
     "author2": "Giorgio Iule, Freelance Photographer.",
-    "testimonial3": "\"Isaac è un professionista preoccupato per il suo costante aggiornamento, orientato al raggiungimento degli obiettivi, dedicato, impegnato e appassionato del suo lavoro, altamente responsabile. Consegna i progetti nel tempo concordato.\"",
+    "testimonial3": "\"Isaac is a constantly updating professional, achievement-oriented, dedicated, committed and passionate about his work. He delivers projects in agreed time.\"",
     "author3": "Maurizio Buonpensiero, Commissionaria SantAngelo",
-    "testimonial4": "\"Recomiendo a Isaac para el trabajo individual, pero también para proyectos compartidos; por su disposición a colaborar con los miembros del equipo y su proactividad para contribuir con el logro de los objetivos.\"",
+    "testimonial4": "\"I recommend Isaac for individual work, but also for shared projects, because of his willingness to collaborate with team members and his proactivity to contribute with the objectives achievement.\"",
     "author4": "Alejandra Yriarte, Corporación A&A"
   },
   "contact": {
-    "title": "CONTACT ME",
-    "subtitle": "Get a free quote. I am available to answer your queries about your project.",
+    "title": "Contact Me",
+    "subtitle": "Get a free quote. I am available to answer the queries related to your project.",
     "form": {
       "placeholder": {
         "name": "Name",
-        "email": "email",
-        "message": "Your message"
+        "email": "Email",
+        "message": "Message"
       },
-      "button_send": "SUBMIT"
+      "button_send": "Submit"
     }
   },
   "footer": {
