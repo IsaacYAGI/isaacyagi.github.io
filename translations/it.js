@@ -4,7 +4,7 @@ const i18nIt = {
     "services": "Servizi",
     "works": "Proggetti",
     "team": "Su di me",
-    "testimonials": "Testimonianze",
+    "testimonials": "Opinioni",
     "contact": "Contatto"
   },
   "banner": {
@@ -14,7 +14,8 @@ const i18nIt = {
   "intro": {
     "title": "Posso aiutarti con il tuo progetto!",
     "description": "Sono una persona onesta, proattiva, responsabile, in continua ricerca di aggiornamenti tecnici ed informazione, con lo scoppo offrire un servizio efficiente e soluzioni di qualità per i miei clienti.Sono disponibile lavorare in persona o di forma remota"
-  },"services": {
+  },
+  "services": {
     "consultAndAnalysis_title": "Consulenza",
     "consultAndAnalysis_description": "Analisi delle richieste ed esigenze del cliente nella creazione del suo progetto.",
     "designWeb_title": "Design e Sviluppo Web",
@@ -43,7 +44,7 @@ const i18nIt = {
     "subtitle": "Ingegnere Informatico",
     "description": "Attualmente formo parte di una compagnia dove lavoro nello sviluppo di applicazioni web e mobili.<br/> Lavoro anche come libero professionista svilupando progetti individualizzati.I linguaggi di programmazione più utilizzati da me sono: Java, C#, PHP, PHP OO, JavaScript, Python."
   },
-  "Opinioni": {
+  "testimonials": {
     "testimonial1": "\"Isaac è un talentuoso e abile web developer, altamente impegnato per il suo lavoro, eccellente professionista e con grande qualità umana.\"",
     "author1": "Aracelis Martín, Libera Professionista",
     "testimonial2": "\"Isaac è una persona altamente responsabile, con un elevato livello accademico e professionale, fortemente raccomandato.\"",
@@ -51,7 +52,7 @@ const i18nIt = {
     "testimonial3": "\"Isaac è un professionista preoccupato per il suo costante aggiornamento, orientato al raggiungimento degli obiettivi, dedicato, impegnato e appassionato del suo lavoro, altamente responsabile. Consegna i progetti nel tempo concordato.\"",
     "author3": "Maurizio Buonpensiero, Commissionaria SantAngelo",
     "testimonial4": "\"Consiglio di lavorare con Isaac per progetti individuali e di gruppo; per la sua volontà di collaborare con i membri del team e la loro proattività per contribuire al raggiungimento degli obiettivi.\"",
-    "author4": "Alejandra Yriarte, A&A"
+    "author4": "Alejandra Yriarte, Corporazione A&A"
   },
   "contact": {
     "title": "Contattami",
