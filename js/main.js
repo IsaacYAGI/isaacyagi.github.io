@@ -44,10 +44,12 @@ $(document).ready(function() {
 	nav.find('a').on('click', function () {
 	  	var $el = $(this)
 	    	id = $el.attr('href');
-		$('html, body').animate({
-			scrollTop: $(id).offset().top - 75
-		}, 500);
-	  return false;
+        if (id != undefined){
+      		$('html, body').animate({
+      			scrollTop: $(id).offset().top - 75
+      		}, 500);
+      	  return false;
+        }
 	});
 
 	// Mobile Navigation
