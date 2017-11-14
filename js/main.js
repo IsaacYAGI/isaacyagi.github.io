@@ -78,8 +78,14 @@ $(document).ready(function() {
 
 	// use plugins and options as needed, for options, detail see
   // http://i18next.com/docs/
-	i18next.init({
-    lng: 'es', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+	i18next
+  .use(i18nextBrowserLanguageDetector)
+  .init({
+    //debug: true,
+    fallbackLng: 'en',
+    //load: 'languageOnly',
+    lng: window.navigator.userLanguage || window.navigator.language || 'en-US',
+    //lng: 'es', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
     resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
       es: {
         translation: i18nEs
