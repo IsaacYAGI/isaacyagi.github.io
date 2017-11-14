@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 	var language = "";
+  var idiomasDisponibles = ["es","en","it"];
 
 	// Header Scroll
 	$(window).on('scroll', function() {
@@ -89,7 +90,7 @@ $(document).ready(function() {
     // https://github.com/i18next/jquery-i18next#initialize-the-plugin
     jqueryI18next.init(i18next, $);
 
-    language = ((["es","en","it"].indexOf(i18next.language.substr(0, 2)) != -1) ? i18next.language.substr(0, 2) : "en");
+    language = ((idiomasDisponibles.indexOf(i18next.language.substr(0, 2)) != -1) ? i18next.language.substr(0, 2) : "en");
 
     //console.log("LANGUAGE CONFIGURED=" + language);
 
