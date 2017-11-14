@@ -84,6 +84,9 @@ $(document).ready(function() {
       },
       en: {
         translation: i18nEn
+      }, 
+      it: {
+        translation: i18nIt
       }
     }
   }, function(err, t) {
