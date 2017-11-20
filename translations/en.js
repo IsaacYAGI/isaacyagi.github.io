@@ -2,7 +2,7 @@ const i18nEn = {
   "nav": {
     "home": "Home",
     "services": "Services",
-    "works": "Work",
+    "works": "Projects",
     "team": "About",
     "testimonials": "Testimonials",
     "contact": "Contact"
@@ -16,11 +16,11 @@ const i18nEn = {
     "description": "I am an honest, proactive, responsible person, always committed with the continuous search of information in order to offer an efficient service and quality solutions to my clients. I am availabe to work in house or remotely."
   },
   "services": {
-    "consultAndAnalysis_title": "Consultat & Analysis",
+    "consultAndAnalysis_title": "Consulting & Analysis",
     "consultAndAnalysis_description": "Analysis of the requirements and needs of the client in the creation of the project.",
     "designWeb_title": "Web Design and Web  Development",
     "designWeb_description": "Web Design and Web Development, using programming languages and appropriate computational tools.",
-    "designMobile_title": "Design and Development of Mobile Applications.",
+    "designMobile_title": "Design and Development of Mobile Applications",
     "designMobile_description": "Design and development of mobile applications for Android natively and multiplatform using Kony Studio.",
     "control_title": "Control and Follow-up",
     "control_description": "Continuous process and product controls, in order to ensure customer satisfaction and compliance with quality standards.",
