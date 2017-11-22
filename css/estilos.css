@@ -79,3 +79,8 @@
   font-size: 2em;
   color: #fff;
 }
+
+#imgIdioma{
+  max-width: 25px;
+  cursor: pointer;
+}
